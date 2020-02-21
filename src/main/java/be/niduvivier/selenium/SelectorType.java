@@ -1,3 +1,5 @@
+package be.niduvivier.selenium;
+
 public enum SelectorType {
     ID,
     CSSSELECTOR,

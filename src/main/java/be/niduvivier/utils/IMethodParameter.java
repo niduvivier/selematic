@@ -1,3 +1,5 @@
+package be.niduvivier.utils;
+
 import org.openqa.selenium.WebElement;
 
 @FunctionalInterface

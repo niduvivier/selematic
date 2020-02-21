@@ -1,3 +1,5 @@
+package be.niduvivier.utils;
+
 public class Navigator {
     public static void openPage(String selector){
 

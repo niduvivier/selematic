@@ -1,3 +1,5 @@
+package be.niduvivier.selenium;
+
 public class ElementSearch {
     private String selector;
     private SelectorType selectorType;
@@ -6,7 +8,7 @@ public class ElementSearch {
         this.selector = selector;
         String temp = selector.substring(0,1);
         /*selectorType = switch(temp){
-            case "#" -> SelectorType.ID;
+            case "#" -> be.niduvivier.selenium.SelectorType.ID;
         }*/
         switch (temp){
             case "#": this.selectorType = SelectorType.ID; break;

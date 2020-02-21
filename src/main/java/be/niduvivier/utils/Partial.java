@@ -1,3 +1,5 @@
+package be.niduvivier.utils;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;

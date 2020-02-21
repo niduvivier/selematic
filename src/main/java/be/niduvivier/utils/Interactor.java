@@ -1,3 +1,5 @@
+package be.niduvivier.utils;
+
 public class Interactor {
     public static void click(String selector){
 
